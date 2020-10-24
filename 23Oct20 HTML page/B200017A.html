@@ -1,34 +1,56 @@
 <html>
 		<head>
-			<title>YY's Space</title>
+            <title>YY's Space</title>
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+            <style>
+                * {
+                  box-sizing: border-box;
+                }
+                
+                /* Create two equal columns that floats next to each other */
+                .column {
+                  float: left;
+                  width: 50%;
+                  padding: 20px;
+                }
+                
+                /* Clear floats after the columns */
+                .row:after {
+                  content: "";
+                  display: table;
+                  clear: both;
+                }
+                </style>
         </head>
 
 		<body>
             <header>
-                <h3>Let Me Introduce Myself!</h3> 
+                <div class="w3-container w3-teal">
+                <h1>Let Me Introduce Myself!</h1>
+                </div> 
             </header>
 
-            <blockquote><i>Hope for The Best, Prepare for The Worst</i></blockquote>
+            <blockquote class="w3-panel w3-card-2 w3-yellow">
+                <p class="w3-large">
+                <i>"Hope for the best, Prepare for the worst."</i></p>
+                <p>My favourite Quote</p>
+            </blockquote>
             
-            <section>
-                <article>
-                    <b>Name</b>    :   Yue Yun Low <b>aka</b> <i>YyLow</i>
-                </article>
-                
-                <article>
-                    <b>Residential area</b>    :   Skudai
-                </article>
-    
-                <article>
-                    <p><b>Hobbies</b> :   
-                        <ul>
-                            <li>Reading Intellectual Book</li>
-                            <li>Reading Comics</li>
-                            <li>Watching Interesting Korean Drama</li>
-                        </ul>
+            <section class="w3-container">
+                <br>
+                <article class="row">
+                    <img class="column" src="https://scontent.fkul5-2.fna.fbcdn.net/v/t1.0-9/97408446_2898734110244529_1339864087923785728_o.jpg?_nc_cat=102&ccb=2&_nc_sid=09cbfe&_nc_eui2=AeGpYyPdZic411r8DPt-nLpHrqlG0sT2iIiuqUbSxPaIiOS1cTyCEFH_dYib8owpfxMExA5-4Fq2HH2ClNORVsR1&_nc_ohc=LNagmNkGPnYAX9hSF5f&_nc_ht=scontent.fkul5-2.fna&oh=707213ea61778f9bb1df009fd84dd2df&oe=5FB815B2" class="w3-round" alt="Norway" style="width:20%">
+                    <p class="column w3-card-4" style="margin-top:40px">
+                        <b>Name</b>    :   Yue Yun Low <b>AKA</b> <i>YyLow</i><br>
+                        <b>Residential area</b>    :   Skudai<br>
+                        <b>Hobbies</b> : <br>Reading Intellectual Book<br>Reading Comics<br>Watching Interesting Korean Drama
+                        
+                        
+                        
                     </p>
                 </article>
-
+                
                 <article>
                     <p><b>Why do you study Software engineering?</b>
                         <br>    
@@ -46,21 +68,19 @@
                 </article>
 
                 <article>
-                    What is your personal goal before 25 years old?
+                    <p><b>What is your personal goal before 25 years old?</b>
+                        <br>
+                            My personal goal before 25 years old was to get my first job and planning the future for 
+                            myself and my husband.
+                    </p>
                 </article>
                 
                 <article>
-                    My personal goal before 25 years old was to get my first job and planning the future for 
-                    myself and my husband.
-                </article>
-
-                <article>
-                    What is your personal goal before 30 years old?
-                </article>
-
-                <article>
-                    My personal goal before 30 years old is to build a strong communication foundation with all
-                    the person around me and establish a strong profile with my first job as a software engineer.
+                    <p><b>What is your personal goal before 30 years old?</b>
+                        <br>
+                            My personal goal before 30 years old is to build a strong communication foundation with all
+                            the person around me and establish a strong profile with my first job as a software engineer.
+                    </p>
                 </article>
             </section>
 		</body>
