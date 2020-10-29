@@ -9,9 +9,15 @@
                 }
                 
                 /* Create two equal columns that floats next to each other */
-                .column {
+                .column1 {
                   float: left;
                   width: 50%;
+                  padding: 20px;
+                }
+
+                .column2 {
+                  float: left;
+                  width: 80%;
                   padding: 20px;
                 }
                 
@@ -21,45 +27,52 @@
                   display: table;
                   clear: both;
                 }
+
+                html, body, h1, h2, h3, h4, h5, h6 {
+                    font-family: "Roboto", cursive, sans-serif;
+                }
+
+                body {
+                    background-image: url('https://image.freepik.com/free-vector/colorful-memphis-design-background-vector_53876-81744.jpg');
+                    background-repeat: no-repeat;
+                    background-attachment: fixed;
+                    background-size: 100% 100%;
+                }
                 </style>
         </head>
 
 		<body>
             <header>
-                <div class="w3-container w3-teal">
+                <article class="w3-container w3-blue">
                 <h1>Let Me Introduce Myself!</h1>
-                </div> 
+                </article> 
             </header>
 
             <blockquote class="w3-panel w3-card-2 w3-yellow">
-                <p class="w3-large">
+                <p class="w3-large" style="margin-left: 80px">
                 <i>"Hope for the best, Prepare for the worst."</i></p>
-                <p>My favourite Quote</p>
+                <p><b>My favourite Quote</b></p>
             </blockquote>
             
             <section class="w3-container">
                 <br>
-                <article class="row">
-                    <img class="column" src="https://scontent.fkul5-2.fna.fbcdn.net/v/t1.0-9/97408446_2898734110244529_1339864087923785728_o.jpg?_nc_cat=102&ccb=2&_nc_sid=09cbfe&_nc_eui2=AeGpYyPdZic411r8DPt-nLpHrqlG0sT2iIiuqUbSxPaIiOS1cTyCEFH_dYib8owpfxMExA5-4Fq2HH2ClNORVsR1&_nc_ohc=LNagmNkGPnYAX9hSF5f&_nc_ht=scontent.fkul5-2.fna&oh=707213ea61778f9bb1df009fd84dd2df&oe=5FB815B2" class="w3-round" alt="Norway" style="width:20%">
-                    <p class="column w3-card-4" style="margin-top:40px">
+                <article class="row" style="margin-left: 80px">
+                    <img class="column1" src="https://scontent.fkul5-2.fna.fbcdn.net/v/t1.0-9/97408446_2898734110244529_1339864087923785728_o.jpg?_nc_cat=102&ccb=2&_nc_sid=09cbfe&_nc_eui2=AeGpYyPdZic411r8DPt-nLpHrqlG0sT2iIiuqUbSxPaIiOS1cTyCEFH_dYib8owpfxMExA5-4Fq2HH2ClNORVsR1&_nc_ohc=LNagmNkGPnYAX9hSF5f&_nc_ht=scontent.fkul5-2.fna&oh=707213ea61778f9bb1df009fd84dd2df&oe=5FB815B2" class="w3-round" alt="Norway" style="width:20%">
+                    <p class="column1 w3-card-4 w3-white" style="margin-top:40px">
                         <b>Name</b>    :   Yue Yun Low <b>AKA</b> <i>YyLow</i><br>
                         <b>Residential area</b>    :   Skudai<br>
-                        <b>Hobbies</b> : <br>Reading Intellectual Book<br>Reading Comics<br>Watching Interesting Korean Drama
-                        
-                        
-                        
+                        <b>Hobbies</b> : <br>Reading Intellectual Book<br>Reading Comics<br>Watching Interesting Korean Drama 
                     </p>
                 </article>
                 
-                <article>
+                <article class="column2 w3-card-2 w3-blue" style="margin-left:100px">
                     <p><b>Why do you study Software engineering?</b>
                         <br>    
-                             I study Software engineering because I found myself to be very interested into a developer
-                             career path when I was working in my first company as an operation intern.
+                             I study Software engineering because I found myself to be very interested into a developer career path when I was working<br>in my first company as an operation intern.
                     </p>
                 </article>
-
-                <article>
+                
+                <article class="column2 w3-card-2 w3-yellow" style="margin-left:100px">
                     <p><b>What have you learned in the Degree?</b>
                         <br>
                             This is only my first year studying Software engineering degree, so I have learned the basic
@@ -67,7 +80,7 @@
                     </p>
                 </article>
 
-                <article>
+                <article class="column2 w3-card-2 w3-blue" style="margin-left:100px">
                     <p><b>What is your personal goal before 25 years old?</b>
                         <br>
                             My personal goal before 25 years old was to get my first job and planning the future for 
@@ -75,7 +88,7 @@
                     </p>
                 </article>
                 
-                <article>
+                <article class="column2 w3-card-2 w3-yellow" style="margin-left:100px">
                     <p><b>What is your personal goal before 30 years old?</b>
                         <br>
                             My personal goal before 30 years old is to build a strong communication foundation with all
@@ -83,5 +96,9 @@
                     </p>
                 </article>
             </section>
+            <br>
+            <footer class="w3-container w3-blue">
+                <p class="w3-center"><b>Living life is to constantly improving oneself.</b></p>
+            </footer>
 		</body>
 	</html>
