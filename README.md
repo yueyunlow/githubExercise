@@ -1,2 +1,2 @@
 # githubExercise
-  All exercise posted here.
+  All exercises posted here.
